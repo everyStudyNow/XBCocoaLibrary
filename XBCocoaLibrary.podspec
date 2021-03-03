@@ -36,7 +36,8 @@ Pod::Spec.new do |s|
   #   'XBCocoaLibrary' => ['XBCocoaLibrary/Assets/*.png']
   # }
 
-  s.public_header_files = 'XBCocoaLibrary/Classes/**/*.h'
+  #s.public_header_files = 'XBCocoaLibrary/Classes/**/*.h'
+  s.public_header_files = ['XBCocoaLibrary/Classes/XBRequestManager.h']
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
