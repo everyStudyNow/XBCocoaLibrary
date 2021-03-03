@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XBCocoaLibrary'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'very good library'
 
 # This description is used to generate tags and improve search results.
@@ -25,19 +25,18 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'everyStudyNow' => 'xiaobing.jin@geely.com' }
-  s.source           = { :git => 'https://github.com/everyStudyNow/XBCocoaLibrary.git', :tag => "1.0.3" }
+  s.source           = { :git => 'https://github.com/everyStudyNow/XBCocoaLibrary.git', :tag => "1.0.4" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'XBCocoaLibrary/Classes/**/*'
+  s.public_header_files = 'XBCocoaLibrary/Classes/**/*.h'
   
   # s.resource_bundles = {
   #   'XBCocoaLibrary' => ['XBCocoaLibrary/Assets/*.png']
   # }
-
-  #s.public_header_files = 'XBCocoaLibrary/Classes/**/*.h'
-  s.public_header_files = ['XBCocoaLibrary/Classes/XBRequestManager.h']
+  
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
