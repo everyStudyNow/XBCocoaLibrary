@@ -1,0 +1,6 @@
+framework module Pods_XBCocoaLibrary_Example {
+  umbrella header "Pods-XBCocoaLibrary_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module XBCocoaLibrary {
+  umbrella header "XBCocoaLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}
