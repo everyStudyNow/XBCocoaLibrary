@@ -77,8 +77,8 @@
 		61CA94EF2639807466427720DA2091C6 /* EXPDoubleTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 7294A5B18D0DC3A0D550BBA577C3A49E /* EXPDoubleTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		624F95EB25EF58DE00469E2D /* XBRequestManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 624F95E925EF58DE00469E2D /* XBRequestManager.h */; };
 		624F95EC25EF58DE00469E2D /* XBRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 624F95EA25EF58DE00469E2D /* XBRequestManager.m */; };
-		624F962525EF6CA000469E2D /* XBCustomNav.h in Headers */ = {isa = PBXBuildFile; fileRef = 624F962325EF6CA000469E2D /* XBCustomNav.h */; };
-		624F962625EF6CA000469E2D /* XBCustomNav.m in Sources */ = {isa = PBXBuildFile; fileRef = 624F962425EF6CA000469E2D /* XBCustomNav.m */; };
+		624F968025EF71BE00469E2D /* XBCustomNav.m in Sources */ = {isa = PBXBuildFile; fileRef = 624F967E25EF71BE00469E2D /* XBCustomNav.m */; };
+		624F968125EF71BE00469E2D /* XBCustomNav.h in Headers */ = {isa = PBXBuildFile; fileRef = 624F967F25EF71BE00469E2D /* XBCustomNav.h */; };
 		65EF1875C3126A62D92C3B5FA0F87FCA /* Pods-XBCocoaLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0E57BD9ECA23023E9504B1C9F6A23E /* Pods-XBCocoaLibrary_Example-dummy.m */; };
 		660F79D9086A7962E1FFFA101802E8E0 /* EXPMatchers+match.h in Headers */ = {isa = PBXBuildFile; fileRef = 303F371EFA3986F7EAD6B8D451041A39 /* EXPMatchers+match.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66ABBD694E306E452A0D3DB3972FA429 /* EXPMatchers+beIdenticalTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E28AE7BFFFA8D110B50504208BEAF12 /* EXPMatchers+beIdenticalTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -303,8 +303,8 @@
 		6054AB7FD0D1B8838A071D22F2A06C04 /* EXPMatchers+endWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+endWith.m"; path = "Expecta/Matchers/EXPMatchers+endWith.m"; sourceTree = "<group>"; };
 		624F95E925EF58DE00469E2D /* XBRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XBRequestManager.h; path = XBCocoaLibrary/Classes/XBRequestManager.h; sourceTree = "<group>"; };
 		624F95EA25EF58DE00469E2D /* XBRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XBRequestManager.m; path = XBCocoaLibrary/Classes/XBRequestManager.m; sourceTree = "<group>"; };
-		624F962325EF6CA000469E2D /* XBCustomNav.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XBCustomNav.h; sourceTree = "<group>"; };
-		624F962425EF6CA000469E2D /* XBCustomNav.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBCustomNav.m; sourceTree = "<group>"; };
+		624F967E25EF71BE00469E2D /* XBCustomNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XBCustomNav.m; path = XBCocoaLibrary/Classes/XBCustomNav.m; sourceTree = "<group>"; };
+		624F967F25EF71BE00469E2D /* XBCustomNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XBCustomNav.h; path = XBCocoaLibrary/Classes/XBCustomNav.h; sourceTree = "<group>"; };
 		63F92782B7A3DAAE67C73CD6D00B8F48 /* EXPFloatTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPFloatTuple.h; path = Expecta/EXPFloatTuple.h; sourceTree = "<group>"; };
 		65010C4EEFEDA3CF83CE73AD9BBBAB7A /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		65A3F9059119E1A5287A88950D44F6D0 /* EXPMatchers+FBSnapshotTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+FBSnapshotTest.h"; sourceTree = "<group>"; };
@@ -544,8 +544,8 @@
 			children = (
 				624F95E925EF58DE00469E2D /* XBRequestManager.h */,
 				624F95EA25EF58DE00469E2D /* XBRequestManager.m */,
-				624F962325EF6CA000469E2D /* XBCustomNav.h */,
-				624F962425EF6CA000469E2D /* XBCustomNav.m */,
+				624F967F25EF71BE00469E2D /* XBCustomNav.h */,
+				624F967E25EF71BE00469E2D /* XBCustomNav.m */,
 				517859CEC42949FBDC807F4A8B055BDB /* ReplaceMe.m */,
 				C97DCEC9835A8D1B3A02205249DEFF18 /* Pod */,
 				FD03377C6633250F3A86BD9571DDA2DD /* Support Files */,
@@ -865,7 +865,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				624F95EB25EF58DE00469E2D /* XBRequestManager.h in Headers */,
-				624F962525EF6CA000469E2D /* XBCustomNav.h in Headers */,
+				624F968125EF71BE00469E2D /* XBCustomNav.h in Headers */,
 				8CFD423D183584F621F651CA80B6364A /* XBCocoaLibrary-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1313,7 +1313,7 @@
 			files = (
 				3EFF0AD0E3ABB0C1A87BBCD0A36CBAE5 /* ReplaceMe.m in Sources */,
 				3996C244998C5DF9283839C01354A5A2 /* XBCocoaLibrary-dummy.m in Sources */,
-				624F962625EF6CA000469E2D /* XBCustomNav.m in Sources */,
+				624F968025EF71BE00469E2D /* XBCustomNav.m in Sources */,
 				624F95EC25EF58DE00469E2D /* XBRequestManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
