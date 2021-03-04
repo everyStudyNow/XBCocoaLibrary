@@ -10,7 +10,7 @@ PODS:
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
   - Specta (1.0.7)
-  - XBCocoaLibrary (0.1.0)
+  - XBCocoaLibrary (1.0.4)
 
 DEPENDENCIES:
   - Expecta
@@ -35,7 +35,7 @@ SPEC CHECKSUMS:
   "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
-  XBCocoaLibrary: 307853eaca1899a87c6710e493344eec2bed8151
+  XBCocoaLibrary: 148c8d8b113d64e6c56fe24c664a9e04f0356d35
 
 PODFILE CHECKSUM: 26e125cd9237f1eb6b54b987607d70699d563a72
 

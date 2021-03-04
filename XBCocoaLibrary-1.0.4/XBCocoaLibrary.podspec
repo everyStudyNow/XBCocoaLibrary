@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.authors = {"everyStudyNow"=>"xiaobing.jin@geely.com"}
   s.homepage = "https://github.com/everyStudyNow/XBCocoaLibrary.git"
   s.description = "a test library is very easy to use"
-  s.source = { :path => '.' }
+  s.source = -dynamic
 
   s.ios.deployment_target    = '9.0'
   s.ios.vendored_framework   = 'ios/XBCocoaLibrary.framework'

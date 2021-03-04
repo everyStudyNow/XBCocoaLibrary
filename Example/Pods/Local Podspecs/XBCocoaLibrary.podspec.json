@@ -1,9 +1,9 @@
 {
   "name": "XBCocoaLibrary",
-  "version": "0.1.0",
-  "summary": "A short description of XBCocoaLibrary.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/everyStudyNow/XBCocoaLibrary",
+  "version": "1.0.4",
+  "summary": "very good library",
+  "description": "a test library is very easy to use",
+  "homepage": "https://github.com/everyStudyNow/XBCocoaLibrary.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -13,10 +13,11 @@
   },
   "source": {
     "git": "https://github.com/everyStudyNow/XBCocoaLibrary.git",
-    "tag": "0.1.0"
+    "tag": "1.0.4"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "XBCocoaLibrary/Classes/**/*"
+  "source_files": "XBCocoaLibrary/Classes/**/*",
+  "public_header_files": "XBCocoaLibrary/Classes/**/*.h"
 }

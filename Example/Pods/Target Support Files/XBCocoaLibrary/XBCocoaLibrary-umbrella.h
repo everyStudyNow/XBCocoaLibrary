@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "XBCustomNav.h"
+#import "XBRequestManager.h"
 
 FOUNDATION_EXPORT double XBCocoaLibraryVersionNumber;
 FOUNDATION_EXPORT const unsigned char XBCocoaLibraryVersionString[];
